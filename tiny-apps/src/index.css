@@ -1,0 +1,27 @@
+*{
+  box-sizing: border-box;
+}
+
+
+main{
+  min-height: 500px;
+  background-color: aliceblue;
+  padding: 24px;
+}
+
+form button[disabled]{
+  opacity: 0.5;
+}
+
+form textarea{
+  font-size: 0.9rem;
+  padding: 8px;
+}
+
+table{
+  border: 1px solid gray;
+}
+
+table td {
+  border:1px solid gray;
+}

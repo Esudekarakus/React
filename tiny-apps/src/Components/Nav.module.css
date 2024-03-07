@@ -1,0 +1,12 @@
+.Nav a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.Nav [class="active"]{
+    font-weight: bold;
+    background-color: pink;
+    color: white;
+}

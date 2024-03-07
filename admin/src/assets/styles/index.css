@@ -1,0 +1,65 @@
+:root {
+  /* color */
+  --primary-clr-0: orangered;
+  --primary-clr-1: rgb(206, 55, 0);
+  --primary-clr-2: rgb(129, 34, 0);
+  --primary-clr-3: rgb(74, 20, 0);
+
+  --neutral-clr-0: black;
+  --neutral-clr-1: rgb(50, 50, 50);
+  --neutral-clr-2: rgb(116, 116, 116);
+  --neutral-clr-3: rgb(160, 160, 160);
+  --neutral-clr-4: rgb(216, 216, 216);
+  --neutral-clr-5: rgb(255, 255, 255);
+
+  /* typography */
+  --fs-xs: 0.7rem;
+  --fs-sm: 0.8rem;
+  --fs-md: 0.9rem;
+  --fs-lg: 1rem;
+
+  /*  spacing */
+  --spc-xs: 4px;
+  --spc-sm: 8px;
+  --spc-md: 16px;
+  --spc-lg: 24px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.6rem;
+}
+
+h3 {
+  font-size: 1.2rem;
+}
+
+#root > header,
+#root > footer {
+  background-color: var(--neutral-clr-1);
+  color: var(--neutral-clr-4);
+  padding: var(--spc-lg);
+  display: flex;
+  align-items: baseline;
+  gap: 24px;
+}
+
+main {
+  min-height: calc(100vh - 140px);
+}

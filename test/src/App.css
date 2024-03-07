@@ -1,0 +1,22 @@
+body {
+  background-color: #001f3f;
+  color: white;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+.btn-light {
+  background-color: #17a2b8;
+  color: white;
+}
+
+.table {
+  margin: auto;
+}
+
+.btn-info,
+.btn-danger {
+  margin: 0 5px;
+}

@@ -1,0 +1,12 @@
+.NavMain {
+}
+
+.NavMain ul {
+  display: flex;
+  align-items: end;
+  gap: 24px;
+}
+
+.NavMain [class="active"] {
+  border-bottom: 1px solid white;
+}
